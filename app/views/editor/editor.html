@@ -1,0 +1,16 @@
+{% extends "layouts/default.html" %}
+{% block content %}     
+<main>
+    <div class="adjoined-bottom">
+        <div class="grid-container">
+            <div class="grid-width-100">
+                   
+                <h1> SYNC HTML Editor Example With Nodejs And Mongodb</h1>
+                <div id="editor">
+                     {{ contentData.content | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
